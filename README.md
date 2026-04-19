@@ -47,6 +47,9 @@ Noise introduced a ~23 percentage point drop, with leaked probability distribute
 | 4 | 16 | 3.1 | 89.3% | 77.2% |
 | 5 | 32 | 4.4 | 60.3% | 48.7% |
 
+![Ideal vs Noisy](grover_results.png)
+![Scaling Analysis](grover_scaling.png)
+
 > **Note on n=2:** The noisy simulator (25.8%) marginally outperforms the ideal (23.8%) — 
 > this is not a real advantage. The ideal probability at n=2 with k=2 iterations is 
 > mathematically exactly 25% (the algorithm overshoots its own peak and collapses back to 
